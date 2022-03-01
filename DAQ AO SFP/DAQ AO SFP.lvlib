@@ -33,12 +33,6 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="_Callbacks" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-	</Item>
-	<Item Name="Community" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Data Types" Type="Folder">
@@ -46,10 +40,6 @@
 		</Item>
 		<Item Name="Control.vi" Type="VI" URL="../Control.vi"/>
 		<Item Name="dT.vi" Type="VI" URL="../dT.vi"/>
-	</Item>
-	<Item Name="Properties" Type="Folder"/>
-	<Item Name="Protected" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
